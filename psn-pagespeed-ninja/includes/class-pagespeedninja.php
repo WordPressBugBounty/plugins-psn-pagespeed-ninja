@@ -3,7 +3,7 @@
  * PageSpeed Ninja
  * https://pagespeed.ninja/
  *
- * @version    1.4.4
+ * @version    1.4.5
  * @license    GNU/GPL v2 - http://www.gnu.org/licenses/gpl-2.0.html
  * @copyright  (C) 2016-2024 PageSpeed Ninja Team
  * @date       September 2024
@@ -37,7 +37,7 @@ class PagespeedNinja
     {
         $this->plugin_slug = $plugin_slug;
         $this->plugin_name = $plugin_name;
-        $this->version = '1.4.4';
+        $this->version = '1.4.5';
         $this->plugin_dir_path = plugin_dir_path(__DIR__);
 
         self::$classmap = array(
